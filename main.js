@@ -259,6 +259,10 @@ function reload() {
     }, 3000);
 }
 
+function forceLower(strInput) 
+{
+strInput.value=strInput.value.toLowerCase();
+} 
 
 
 function ClickFunction(x) {
