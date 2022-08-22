@@ -117,16 +117,16 @@ function ClickFunction(x) {
     controll();
 }
 
-// function btnClick2() {
-//     document.getElementById("input2").value = ('A jó válasz = '
-//         + filterArray[0].spast);
-//     document.getElementById('input2').style.backgroundColor = "lightgreen";
+  function btnClick2() {
+     document.getElementById("input2").value = ('A jó válasz = '
+         + filterArray[0].spast);
+     document.getElementById('input2').style.backgroundColor = "lightgreen";
 
-// }
+ }
 
 function btnClick() {
     input3Text = document.getElementById("input3").value;
     controll2();
-    //btnClick2();
+    btnClick2();
     reload();
 }
