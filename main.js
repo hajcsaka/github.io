@@ -127,6 +127,6 @@ function ClickFunction(x) {
 function btnClick() {
     input3Text = document.getElementById("input3").value;
     controll2();
-    btnClick2();
+    //btnClick2();
     reload();
 }
