@@ -1,14 +1,8 @@
  body {
      background-color: black;
  }
-
- #main {
-     margin: 30px;
-     padding-right: 10px
- }
- .form-control {
-    display: block;
-    width: 120%;}
+ 
+  
 
 .btn{
     font-weight: 800;
