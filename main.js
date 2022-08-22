@@ -155,10 +155,157 @@ const verbs = [
         meaning: "hoz"
 
     },
+    {
+        verb: "build",
+        spast: "built",
+        ppart: "built",
+        meaning: "épít"
+
+    },
+    {
+        verb: "burn",
+        spast: "burnt",
+        ppart: "burnt",
+        meaning: "ég, éget"
+
+    },
+    {
+        verb: "burst",
+        spast: "burst",
+        ppart: "burst",
+        meaning: "felrobban; vm érzés hirtelen"
+
+    },
+    {
+        verb: "buy",
+        spast: "bought",
+        ppart: "bought",
+        meaning: "megvesz"
+
+    },
+    {
+        verb: "can",
+        spast: "could",
+        ppart: "couth",
+        meaning: "képes (módbeli s.ige)"
+
+    },
+    {
+        verb: "cast",
+        spast: "cast",
+        ppart: "cast",
+        meaning: "dob, hajít"
+
+    },
+    {
+        verb: "catch",
+        spast: "caught",
+        ppart: "caught",
+        meaning: "elkap, elfog"
+
+    },
+    {
+        verb: "choose",
+        spast: "chose",
+        ppart: "chosen",
+        meaning: "választ, kiválaszt"
+
+    },
+    {
+        verb: "cling",
+        spast: "clung",
+        ppart: "clung",
+        meaning: "ragaszkodik"
+
+    },
+    {
+        verb: "come",
+        spast: "came",
+        ppart: "come",
+        meaning: "jön"
+
+    },
+    {
+        verb: "",
+        spast: "",
+        ppart: "",
+        meaning: ""
+
+    },
+    {
+        verb: "cost",
+        spast: "cost",
+        ppart: "cost",
+        meaning: "kerül vmibe"
+
+    },
+    {
+        verb: "creep",
+        spast: "crept",
+        ppart: "crept",
+        meaning: "mászik, kúszik"
+
+    },
+    {
+        verb: "drive",
+        spast: "drove",
+        ppart: "driven",
+        meaning: "vezet"
+
+    },
+    {
+        verb: "cut",
+        spast: "cut",
+        ppart: "cut",
+        meaning: "vág"
+
+    },
+    {
+        verb: "deal(with)",
+        spast: "dealt",
+        ppart: "dealt",
+        meaning: "foglalkozik vmivel"
+
+    },
+    {
+        verb: "die",
+        spast: "died",
+        ppart: "died",
+        meaning: "meghal"
+
+    },
+    {
+        verb: "dig",
+        spast: "dug",
+        ppart: "dug",
+        meaning: "ás"
+
+    },
+    {
+        verb: "draw",
+        spast: "drew",
+        ppart: "drawn",
+        meaning: "rajzol, húz"
+
+    },
+    {
+        verb: "dream",
+        spast: "dreamt",
+        ppart: "dreamt",
+        meaning: "álmodik"
+
+    },
+    {
+        verb: "drink",
+        spast: "drank",
+        ppart: "drunk",
+        meaning: "iszik"
+
+    },
 
 ];
 //Filter the array to only include users who are on team: red
-
+console.log("A tömböm hossza jelenleg :" + verbs.length)
 function random(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min) + min)
 }
@@ -169,7 +316,7 @@ console.log('A véletlen szám : ' + number);
 
 
 
-console.log('A verbs tömb hossza :' + arrayLength1)
+
 const filterArray = verbs.filter(user => {
     return user === verbs[number];
 })
@@ -241,15 +388,15 @@ function rewriting() {
         + filterArray[0].meaning);
 }
 function rewriting2() {
-    document.getElementById("input2").value = ('A helyes válasz ='
+    document.getElementById("input2").value = ('A helyes válasz = '
         + filterArray[0].spast);
     document.getElementById('input2').style.color = " yellow";
 }
 
 function rewriting3() {
-    document.getElementById("input3").value = ('A helyes válasz ='
+    document.getElementById("input3").value = ('A helyes válasz = '
         + filterArray[0].ppart);
-    document.getElementById('input3').style.color = " yellow";
+    document.getElementById('input3').style.backgroundColor = "lightgreen";
 }
 
 
@@ -258,11 +405,10 @@ function reload() {
         window.location.reload();
     }, 3000);
 }
-
-function forceLower(strInput) 
-{
-strInput.value=strInput.value.toLowerCase();
-} 
+// html - ben onkeyup="return forceLower(this);"
+function forceLower(strInput) {
+    strInput.value = strInput.value.toLowerCase();
+}
 
 
 function ClickFunction(x) {
@@ -272,8 +418,16 @@ function ClickFunction(x) {
     controll();
 }
 
+function btnClick2() {
+    document.getElementById("input2").value = ('A jó válasz = '
+        + filterArray[0].spast);
+    document.getElementById('input2').style.backgroundColor = "lightgreen";
+    
+}
+
 function btnClick() {
     input3Text = document.getElementById("input3").value;
     controll2();
+    btnClick2();
     reload();
 }
