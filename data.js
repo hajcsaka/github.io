@@ -438,10 +438,10 @@ const verbs = [
 
     },
     {
-        verb: "",
-        spast: "",
-        ppart: "",
-        meaning: ""
+        verb: "lead",
+        spast: "led",
+        ppart: "led",
+        meaning: "vezet"
 
     },
     {
