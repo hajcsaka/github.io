@@ -493,5 +493,228 @@ const verbs = [
         meaning: "lefektet, terít"
 
     },
+    {
+        verb: "lead",
+        spast: "led",
+        ppart: "led",
+        meaning: "vezet"
 
+    },
+    {
+        verb: "lean (against)",
+        spast: "leant",
+        ppart: "leant",
+        meaning: "támaszkodik vminek"
+
+    },
+    {
+        verb: "leap",
+        spast: "leapt",
+        ppart: "leapt",
+        meaning: "szökken, ugrik"
+
+    },
+    {
+        verb: "learn",
+        spast: "learnt",
+        ppart: "learnt",
+        meaning: "megtanul, megtud"
+
+    },
+    {
+        verb: "leave",
+        spast: "left",
+        ppart: "left",
+        meaning: "elmegy, elindul, otthagy"
+
+    },
+    {
+        verb: "lend",
+        spast: "lent",
+        ppart: "lent",
+        meaning: "kölcsönad"
+
+    },
+    {
+        verb: "let",
+        spast: "let",
+        ppart: "let",
+        meaning: "hagy"
+
+    },
+    {
+        verb: "lie",
+        spast: "lay",
+        ppart: "lain",
+        meaning: "fekszik"
+
+    },
+    {
+        verb: "light",
+        spast: "lit",
+        ppart: "lit",
+        meaning: "meggyújt"
+
+    },
+    {
+        verb: "lose",
+        spast: "lost",
+        ppart: "lost",
+        meaning: "elveszít"
+
+    },
+    {
+        verb: "make",
+        spast: "made",
+        ppart: "made",
+        meaning: "készít"
+
+    },
+    {
+        verb: "mean",
+        spast: "meant",
+        ppart: "meant",
+        meaning: "jelent vmit"
+
+    },
+    {
+        verb: "meet",
+        spast: "met",
+        ppart: "met",
+        meaning: "találkozik"
+
+    },
+    {
+        verb: "pay",
+        spast: "paid",
+        ppart: "paid",
+        meaning: "fizet"
+
+    },
+    {
+        verb: "put",
+        spast: "put",
+        ppart: "put",
+        meaning: "tesz, rak"
+
+    },
+    {
+        verb: "quit",
+        spast: "quit",
+        ppart: "quit",
+        meaning: "otthagy, elmegy, kilép"
+
+    },
+    {
+        verb: "read",
+        spast: "red",
+        ppart: "red",
+        meaning: "olvas"
+
+    },
+    {
+        verb: "ride",
+        spast: "rode",
+        ppart: "ridden",
+        meaning: "lovagol"
+
+    },
+    {
+        verb: "ring",
+        spast: "rang",
+        ppart: "rung",
+        meaning: "csöng"
+
+    },
+    {
+        verb: "rise",
+        spast: "rose",
+        ppart: "risen",
+        meaning: "emelkedik, kel (nap)"
+
+    },
+    {
+        verb: "run",
+        spast: "ran",
+        ppart: "run",
+        meaning: "fut"
+
+    },
+    {
+        verb: "saw",
+        spast: "sawed",
+        ppart: "sawn",
+        meaning: "fűrészel"
+
+    },
+    {
+        verb: "say",
+        spast: "said",
+        ppart: "said",
+        meaning: "mond"
+
+    },
+    {
+        verb: "see",
+        spast: "saw",
+        ppart: "seen",
+        meaning: "lát"
+
+    },
+    {
+        verb: "seek",
+        spast: "sought",
+        ppart: "sought",
+        meaning: "keres, kutat"
+
+    },
+    {
+        verb: "sell",
+        spast: "sold",
+        ppart: "sold",
+        meaning: "elad"
+
+    },
+    {
+        verb: "send",
+        spast: "sent",
+        ppart: "sent",
+        meaning: "elküld"
+
+    },
+    {
+        verb: "set",
+        spast: "set",
+        ppart: "set",
+        meaning: "beállít, helyez"
+
+    },
+    {
+        verb: "sew",
+        spast: "sewed",
+        ppart: "sewn",
+        meaning: "varr"
+
+    },
+    {
+        verb: "shake",
+        spast: "shook",
+        ppart: "shaken",
+        meaning: "ráz"
+
+    },
+    {
+        verb: "shed",
+        spast: "shed",
+        ppart: "shed",
+        meaning: "elhullat"
+
+    },
+    {
+        verb: "shine",
+        spast: "shone",
+        ppart: "shone",
+        meaning: "süt, ragyog"
+
+    },
 ];
