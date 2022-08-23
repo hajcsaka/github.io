@@ -717,4 +717,354 @@ const verbs = [
         meaning: "süt, ragyog"
 
     },
+    {
+        verb: "shoot",
+        spast: "shot",
+        ppart: "shot",
+        meaning: "lő"
+
+    },
+    {
+        verb: "shit",
+        spast: "shat",
+        ppart: "shat",
+        meaning: "kakil"
+
+    },
+    {
+        verb: "show",
+        spast: "showed",
+        ppart: "shown",
+        meaning: "mutat, prezentál"
+
+    },
+    {
+        verb: "shrink",
+        spast: "shrank",
+        ppart: "shrunk",
+        meaning: "összemegy,zsugorodik"
+
+    },
+    {
+        verb: "shut",
+        spast: "shut",
+        ppart: "shut",
+        meaning: "bezár"
+
+    },
+    {
+        verb: "sing",
+        spast: "sang",
+        ppart: "sung",
+        meaning: "énekel"
+
+    },
+    {
+        verb: "sink			",
+        spast: "sank",
+        ppart: "sunk",
+        meaning: "elsüllyed"
+
+    },
+    {
+        verb: "sit",
+        spast: "sat",
+        ppart: "sat",
+        meaning: "leül"
+
+    },
+    {
+        verb: "sleep",
+        spast: "slept",
+        ppart: "slept",
+        meaning: "alszik"
+
+    },
+    {
+        verb: "slide",
+        spast: "slid",
+        ppart: "slid",
+        meaning: "megcsúszik"
+
+    },
+    {
+        verb: "smell",
+        spast: "smelt",
+        ppart: "smelt",
+        meaning: "szagol, érez"
+
+    },
+    {
+        verb: "speak (to)",
+        spast: "spoke",
+        ppart: "spoken",
+        meaning: "beszél"
+
+    },
+    {
+        verb: "spell",
+        spast: "spelt",
+        ppart: "spelt",
+        meaning: "betűz"
+
+    },
+    {
+        verb: "spill",
+        spast: "spilt",
+        ppart: "spilt",
+        meaning: "kiönt"
+
+    },
+    {
+        verb: "spend",
+        spast: "spent",
+        ppart: "spent",
+        meaning: "költ (pénzt), tölt (időt)"
+
+    },
+    {
+        verb: "spit",
+        spast: "spat",
+        ppart: "spat",
+        meaning: "köp"
+
+    },
+    {
+        verb: "split",
+        spast: "split",
+        ppart: "split",
+        meaning: "feloszt, megoszt"
+
+    },
+    {
+        verb: "spread",
+        spast: "spread",
+        ppart: "spread",
+        meaning: "terjeszt, terjed"
+
+    },
+    {
+        verb: "spring",
+        spast: "sprang",
+        ppart: "sprung",
+        meaning: "ugrik, szökken"
+
+    },
+    {
+        verb: "spoil",
+        spast: "spoilt",
+        ppart: "spoilt",
+        meaning: "elront, elkényeztet"
+
+    },
+    {
+        verb: "stand",
+        spast: "stood",
+        ppart: "stood",
+        meaning: "áll"
+
+    },
+    {
+        verb: "steal",
+        spast: "stole",
+        ppart: "stolen",
+        meaning: "lop"
+
+    },
+    {
+        verb: "stick",
+        spast: "stuck",
+        ppart: "stuck",
+        meaning: "ragaszt"
+
+    },
+    {
+        verb: "sting",
+        spast: "stung",
+        ppart: "stung",
+        meaning: "szúr, csíp"
+
+    },
+    {
+        verb: "stink",
+        spast: "stank",
+        ppart: "stunk",
+        meaning: "bűzlik"
+
+    },
+    {
+        verb: "stride",
+        spast: "strode",
+        ppart: "stridden",
+        meaning: "menetel, lépked"
+
+    },
+    {
+        verb: "strike",
+        spast: "struck",
+        ppart: "struck",
+        meaning: "támad, üt"
+
+    },
+    {
+        verb: "strive",
+        spast: "strove",
+        ppart: "striven",
+        meaning: "igyekszik"
+
+    },
+    {
+        verb: "swear",
+        spast: "swore",
+        ppart: "sworn",
+        meaning: "megesküszik"
+
+    },
+    {
+        verb: "sweep",
+        spast: "swept",
+        ppart: "swept",
+        meaning: "söpör"
+
+    },
+    {
+        verb: "swell",
+        spast: "swelled",
+        ppart: "swollen",
+        meaning: "megdagad"
+
+    },
+    {
+        verb: "swim",
+        spast: "swam",
+        ppart: "swum",
+        meaning: "úszik"
+
+    },
+    {
+        verb: "swing",
+        spast: "swung",
+        ppart: "swung",
+        meaning: "himbálózik, hintázik, lendül"
+
+    },
+    {
+        verb: "take",
+        spast: "took",
+        ppart: "taken",
+        meaning: "visz, rak, tesz"
+
+    },
+    {
+        verb: "teach",
+        spast: "taught",
+        ppart: "taught",
+        meaning: "tanít"
+
+    },
+    {
+        verb: "tear",
+        spast: "tore",
+        ppart: "torn",
+        meaning: "elszakít"
+
+    },
+    {
+        verb: "tell",
+        spast: "told",
+        ppart: "told",
+        meaning: "megmond, elmesél"
+
+    },
+    {
+        verb: "think",
+        spast: "thought",
+        ppart: "thought",
+        meaning: "gondol"
+
+    },
+    {
+        verb: "throw",
+        spast: "threw",
+        ppart: "thrown",
+        meaning: "dob"
+
+    },
+    {
+        verb: "tread",
+        spast: "trod",
+        ppart: "trod",
+        meaning: "tapos"
+
+    },
+    {
+        verb: "understand",
+        spast: "understood",
+        ppart: "understood",
+        meaning: "megért"
+
+    },
+    {
+        verb: "undertake",
+        spast: "undertook",
+        ppart: "undertaken",
+        meaning: "vállal, belefog vmibe"
+
+    },
+    {
+        verb: "wear",
+        spast: "wore",
+        ppart: "worn",
+        meaning: "visel"
+
+    },
+    {
+        verb: "weave",
+        spast: "wove",
+        ppart: "woven",
+        meaning: "sző"
+
+    },
+    {
+        verb: "weep",
+        spast: "wept",
+        ppart: "wept",
+        meaning: "sír"
+
+    },
+    {
+        verb: "wet",
+        spast: "wet",
+        ppart: "wet",
+        meaning: "benedvesít"
+
+    },
+    {
+        verb: "win",
+        spast: "won",
+        ppart: "won",
+        meaning: "győz, nyer"
+
+    },
+    {
+        verb: "wind",
+        spast: "wound",
+        ppart: "wound",
+        meaning: "csavar, felhúz"
+
+    },
+    {
+        verb: "wring",
+        spast: "wrung",
+        ppart: "wrung",
+        meaning: "kicsavar"
+
+    },
+    {
+        verb: "write",
+        spast: "wrote",
+        ppart: "written",
+        meaning: "ír"
+
+    }
 ];
