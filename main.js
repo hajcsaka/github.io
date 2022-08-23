@@ -1,9 +1,9 @@
 let filterArray = [];
+let input2Text;
 
 
 document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("input2").focus();
-    //Filter the array to only include users who are on team: red
     console.log("A tömböm hossza jelenleg :" + verbs.length)
     function random(min, max) { // min and max included
         return Math.floor(Math.random() * (max - min) + min)
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     writeIn();
 
     //  A 2. inputmezőn Enter --> akkor fusson le a controll(); 
-    let input2Text;
+    
 
     document.querySelector('#input2').addEventListener('keypress', function (e) {
         if (input2.value.length > 0 && e.key === 'Enter') {
@@ -117,12 +117,12 @@ function ClickFunction(x) {
     controll();
 }
 
-  function btnClick2() {
-     document.getElementById("input2").value = ('A jó válasz = '
-         + filterArray[0].spast);
-     document.getElementById('input2').style.backgroundColor = "lightgreen";
+function btnClick2() {
+    document.getElementById("input2").value = ('jó válasz = '
+        + filterArray[0].spast);
+    document.getElementById('input2').style.backgroundColor = "lightgreen";
 
- }
+}
 
 function btnClick() {
     input3Text = document.getElementById("input3").value;
